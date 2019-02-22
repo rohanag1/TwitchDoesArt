@@ -1,0 +1,22 @@
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<div class="styleClass">
+<h1>Welcome to Twitch Does Art!<h2>
+<h2>Pick The Direction:</h2>
+<form action='/logData' method='get'>
+<div class="btn-group" >
+  <INPUT TYPE="radio" NAME="direction" VALUE="forward">
+     Forward
+    <INPUT TYPE="radio" NAME="direction" VALUE="right">
+     Right
+     <INPUT TYPE="radio" NAME="direction" VALUE="left">
+     Left     
+     <INPUT TYPE="submit" VALUE="Submit">
+     <p> The winning direction is #evaluate($winningDirection). </p>
+     </div>
+</div>
+</form>
+<style>
+div.styleClass{
+	text-align: center;
+}
+<\style>
